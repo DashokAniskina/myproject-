@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #830000;
+    height: 78px;
+    padding-top: 20px;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline;
+    font-size: larger;
+    font-weight: 900;
+    color: #fff;    
+}
+
+.nav-main-menu {
+    display: inline;
+}
+
+.nav-main-menu li {
+    margin-left: 46px;
+    color: #fff;
+    display: inline;
+}
+
+.nav-main-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Контент */
+
+.about h2 {
+    margin: 40px 0 20px;
+}
+
+.about p {
+    margin: 10px 0;
+}
+
+/* Главная */
+.card {
+    border: 1px solid #621F1F;
+    border-radius: 5px;
+    height: 100px;
+    width: 780px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    padding-top: 10px;
+    color: #807f7f;
+    font-size: 16px;
+}
+
+.card span {
+    color: #000;
+}
+
+.card-left {
+    width: 50%;
+}
+
+/* Запись на тестдрайв */
+.myform {
+    background-color: #D9D9D9;
+    width: 765px;
+    margin: 75px 0 0  100px;
+    padding: 35px;
+}
+
+.myform input[type='submit'] {
+    background-color: #621F1F;
+    margin-top: 10px;
+    color: #fff:
+    padding: 6px 12px;
+}
+
+.myform div {
+    margin-top: 10px;
+}
